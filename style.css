@@ -42,5 +42,8 @@ nav ul li{
 }
 p{
     text-align: justify;
-    text-transform: lowercase;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
 }
