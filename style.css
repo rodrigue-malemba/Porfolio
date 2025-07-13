@@ -1,4 +1,10 @@
+body{
+    font-family: sans-serif;
+    position: relative;
+    top: 5rem;
+}
 header{
+    font-family: sans-serif;
     color: dodgerblue;
     background-color: wheat;
     width: 100%;
@@ -9,7 +15,11 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+header h1{
+    margin-left: 1.3rem;
+}
 nav ul{
+    margin-right: 1.3rem;
     display: flex;
     gap: 20px;
 }
@@ -20,4 +30,17 @@ nav ul li a{
 }
 nav ul li{
     list-style: none;
+}
+.content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.content img{
+    width: 70%;
+    margin-left: 20px;
+}
+p{
+    text-align: justify;
+    text-transform: lowercase;
 }
