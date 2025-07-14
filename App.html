@@ -6,7 +6,7 @@
     <title>My portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<header>
+<header role="progressbar">
     <h1>Rodrigue</h1>
     <nav>
         <ul>
@@ -18,10 +18,10 @@
     </nav>
 </header>
 <body>
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
     <section>
         <h2>A propos de moi</h2>
-            <div class="content">
+            <div class="content" role="presentation">
                 <p>Je suis Développeur full stack passionné, spécialisé dans la création d'applications web performantes et intuitives. Curieux d'apprendre des nouvelles technologies
                 <br><br>Je suis toujours à la recherche de nouveaux défis et d'opportunités pour améliorer mes compétences.
                 <br><br>Mon objectif est de créer des solutions innovantes qui répondent aux besoins des utilisateurs tout en respectant les meilleures pratiques de développement.</p>
@@ -31,9 +31,11 @@
     <section id="projet">
         <h2>Projets</h2>
         <ul>
-            <li>Portfolio</li>
-            <li></li>
-            <li></li>
+            <li id="portfolio">Portfolio</li>
+            <img id="image1" src="./web site2.png">
+            <li id="projetP">Projet personnel</li>
+            <img id="image2" src="./web site1.png" alt="Projet personnel">
+            <li>projet apprentissage</li>
         </ul>
     </section>
     <section id="competence">
