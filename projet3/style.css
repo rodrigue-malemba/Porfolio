@@ -1,0 +1,176 @@
+*{
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+header{
+    height: 5rem;
+    color: white;
+    position: fixed;
+    top: 0rem;
+    background-color: rgb(0, 107, 128);
+    width: 100%;
+    z-index: 10;
+}
+p{
+    text-align: justify;
+}
+/*rgba(189, 80, 7, 0.785);*/
+header .navbar li{
+    display: inline-flex;
+    flex-direction: row;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(248, 151, 5);
+    margin-right: 2rem;
+}
+.navbar a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.30s;
+    text-shadow: 2px 2px white;
+}
+header nav .navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 2rem;
+}
+header h1{
+    font-weight: lighter;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 1.2rem;
+}
+body{
+    position: relative;
+    top: 6rem;
+}
+.acueil{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 4rem;
+    width: 100%;
+    color: white;
+    background-color: rgba(133, 37, 37, 0.809);
+    text-align: center;
+}
+.acueil h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.nos-articles{
+    background-color: gray;
+    padding: 2rem;
+    color: white;
+}
+.nos-articles h3{
+    text-align: center;
+}
+.media{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.aside,
+.center{
+    width: 30%;
+}
+.aside img{
+    width: 100%;
+}
+.center img{
+    width: 100%;
+}
+.writer{
+    background-color: rgb(0, 107, 128);
+    color: yellow;
+    padding: 3rem;
+}
+.media2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.aside2,
+.center2{
+    width: 30%;
+}
+.aside2 img{
+    width: 100%;
+}
+.center2 img{
+    width: 100%;
+}
+.bottom{
+    color: yellow;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 107, 128);
+}
+.bottom img{
+    width: 50%;
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    height: 3rem;
+}
+@media only screen and (max-width:760px){
+    header h1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        text-align: center;
+        color: white;
+    }
+    header nav .navbar{
+        display: flex;
+        position: relative;
+    }
+    header{
+        background-color: rgb(0, 107, 128);
+        height: 6.5rem;
+    }
+    .media2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .aside2,
+    .center2{
+        width: 100%;
+    }
+    .aside2 img{
+        width: 100%;
+    }
+    .center2 img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 760px){
+    .media{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .aside,
+    .center{
+        width: 100%;
+    }
+    .aside img{
+        width: 100%;
+    }
+    .center img{
+        width: 100%;
+    }
+}

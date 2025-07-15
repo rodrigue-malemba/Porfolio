@@ -6,7 +6,8 @@ body{
 header{
     font-family: sans-serif;
     color: dodgerblue;
-    background-color: wheat;
+    background-color: white;
+    border-bottom: 1px solid black;
     width: 100%;
     left: 0;
     top: 0;
@@ -71,4 +72,17 @@ footer p{
 #image2{
     display: none;
     width: 80%;
+}
+#image3{
+    display: none;
+}
+#portfolio:hover{
+    color: blue;
+    transition: 0.9s;
+}
+#projetP:hover{
+    color: blue;
+}
+#projet-Ap:hover{
+    color: blue;
 }

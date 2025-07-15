@@ -1,0 +1,96 @@
+*{
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header{
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    height: 69px;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo{
+    height: 50px;
+    position: relative;
+    left: 10px;
+    margin-right: 10px;
+}
+
+body{
+    position: relative;
+    top: 65px;
+}
+.myrtle{
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cozy img{
+    width: 90%;
+}
+.container3{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.aside3,
+.center3{
+    height: 200px;
+    border: 10px solid transparent;
+    display: flex;
+}
+.container4{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1m06xt6*_gcl_aw*R0NMLjE3NDg5MzIxODIuQ2p3S0NBandsX1hCQmhBVUVpd0FXSzJoemd5cWpoSVhvZTVKWVB1MmNHUjh3dGtrM2NBU0IwaDB0N3o0VDlKTUkyQ1U1YzZseURJUHpob0NKMDRRQXZEX0J3RQ..*_gcl_au*MTU2ODE0MDU2OS4xNzQ4OTMyMTgy*_ga*Njc3MTc5MDA1OC4xNzQ4OTMyMTg3*_ga_3LRZM6TM9L*czE3NDkxMDg2MzEkbzEyJGcxJHQxNzQ5MTE1MjcyJGo0NiRsMCRoMA..);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.side,
+.acenter{
+    height: 300px;
+    width: 300px;
+    border: 10px solid whitesmoke;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    text-align: left;
+}
+@media only screen and (max-width: 800px){
+    .container2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cozy img{
+        width: 90%;
+    }
+    .cozy h6{
+        font-size: 1.5rem;
+    }
+    header{
+        background-color: white;
+    }
+    .navbar a{
+        color: black;
+    }
+}

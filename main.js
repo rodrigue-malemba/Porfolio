@@ -1,21 +1,45 @@
-let readme = document.getElementById("portfolio");
-let port = document.getElementById("image1");
+//affichage de la premiere image
+let portfolio = document.getElementById("portfolio");
+let image1 = document.getElementById("image1");
 
-let showPortfolio = () => {
-    port.style.display = "block";
-    port.style.marginTop = "20px";
-    port.style.marginBottom = "10px";
+let showImage1 = () => {
+    image1.style.display = "block";
+    image1.style.marginTop = "20px";
+    image1.style.marginBottom = "10px";
 }
-readme.addEventListener("click", showPortfolio);
+portfolio.addEventListener("mouseover", showImage1);
 
-
+//affichage de la deuxieme image
 const personnalP = document.getElementById("projetP");
-const open = document.getElementById("image2");
+const image2 = document.getElementById("image2");
 
-const openPortfolio = () => {
-    open.style.display = "block";
-    open.style.marginTop = "20px";
-    open.style.marginBottom = "10px";
+const showImage2 = () => {
+    image2.style.display = "block";
+    image2.style.marginTop = "20px";
+    image2.style.marginBottom = "10px";
 }
-personnalP.addEventListener("click", openPortfolio);
+personnalP.addEventListener("mouseover", showImage2);
+//affichage de la troisieme image
+let projetAp = document.getElementById("projet-Ap");
+let image3 = document.getElementById("image3");
+
+const showImage3 = () => {
+    image3.style.display = "block";
+    image3.style.marginTop = "20px";
+}
+projetAp.addEventListener("mouseover", showImage3);
+//masquer l'image1
+const nextImage1 = document.getElementById("image1");
+const hideImage1 = () =>{
+    image1.style.display = "none";
+}
+nextImage1.addEventListener("click", hideImage1);
+
+//masquer l'image 2
+const nextImage2 = document.getElementById("image2");
+const hideImage2 = () =>{
+    image2.style.display = "none";
+    image2.style.transition = "2s";
+}
+nextImage2.addEventListener("click", hideImage2);
 
