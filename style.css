@@ -64,7 +64,7 @@ footer p{
     .skills{
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
+        
         align-items: center;
     }
 }
@@ -79,14 +79,18 @@ footer p{
 #portfolio:hover{
     color: blue;
     transition: 0.9s;
+    cursor: pointer;
 }
 #projetP:hover{
     color: blue;
+    cursor: pointer;
 }
 #projet-Ap:hover{
     color: blue;
+    cursor: pointer;
 }
 #close-icon, #close-icon1{
     display: none;
     position: relative;
+    cursor: pointer;
 }
