@@ -1,7 +1,12 @@
+*{
+    box-sizing: border-box;
+    opacity: 1;
+}
 body{
     font-family: sans-serif;
     position: relative;
     top: 5rem;
+    background-color: whitesmoke;
 }
 header{
     font-family: sans-serif;
@@ -15,6 +20,7 @@ header{
     position: fixed;
     align-items: center;
     justify-content: space-between;
+    z-index: 10;
 }
 header h1{
     margin-left: 1.3rem;
@@ -50,6 +56,9 @@ p{
 .skills{
     display: flex;
     justify-content: space-between;
+}
+footer{
+    background-color: white;
 }
 footer p{
     text-align: center;
@@ -91,6 +100,18 @@ footer p{
 }
 #close-icon, #close-icon1{
     display: none;
+    position: relative;
+    cursor: pointer;
+}
+.dark-mode-toggle{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#light-mode{
+    display: none;
+}
+#dark-mode,#light-mode{
     position: relative;
     cursor: pointer;
 }

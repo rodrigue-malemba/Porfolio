@@ -18,27 +18,34 @@
     </nav>
 </header>
 <body>
+    <div class="dark-mode-toggle">
+        <img src="./icon-mode-sombre.png" alt="Mode sombre" id="dark-mode" width="30px" title="Activer le mode sombre">
+        <img src="./icons-mode-clair.png" alt="Mode clair" id="light-mode" width="30px" title="Activer le mode clair">
+    </div>
     <script src="main.js" async></script>
+    <!--<script src="./active-dark-mode.js" defer></script>-->
 <!--partie un a propos de moi-->
     <section id="about">
         <h2>A propos de moi</h2>
             <div class="content" role="presentation">
-                <p>Je suis Développeur full stack passionné, spécialisé dans la création d'applications web performantes et intuitives. Curieux d'apprendre des nouvelles technologies
+                <p>Bonjour, je m'appelle Rodrigue Malemba, je suis un développeur full stack passionné par la création d'applications web performantes et intuitives.<br><br>Je suis Développeur full stack passionné, spécialisé dans la création d'applications web performantes et intuitives. Curieux d'apprendre des nouvelles technologies
                 <br><br>Je suis toujours à la recherche de nouveaux défis et d'opportunités pour améliorer mes compétences.
                 <br><br>Mon objectif est de créer des solutions innovantes qui répondent aux besoins des utilisateurs tout en respectant les meilleures pratiques de développement.</p>
-                <img src="https://avatars.githubusercontent.com/u/141469507?s=400&v=4" alt="Rodrigue's Avatar">
+                <img src="https://avatars.githubusercontent.com/u/141469507?s=400&v=4" alt="Rodrigue's Avatar" width="150">
             </div>
     </section>
+    <hr>
 <!--partie deuxieme projets-->
     <section id="projet">
         <h2>Projets</h2>
+        <p style="color: gray;">Voici quelques-uns de mes projets récents :</p>
         <ul>
-            <li id="portfolio">Portfolio</li>
-            <a href="./projet3/macrom-club.html"><img id="image1" src="./web site2.png"></a>
-            <img src="./icons-fermer-la-fenêtre.png" alt="fermer la fenêtre" id="close-icon1" width="30px" title="masquer image">
-            <li id="projetP">Projet personnel</li>
-            <a href="./Projet2/photograph.html"><img id="image2" src="./web site1.png" alt="Projet personnel"></a>
-            <img src="./icons-fermer-la-fenêtre.png" alt="fermer la fenêtre" id="close-icon" width="30px" title="masquer image">
+            <li id="portfolio" class="list">Portfolio</li>
+                <a href="./projet3/macrom-club.html"><img id="image1" src="./web site2.png"></a>
+                    <img src="./icons-fermer-la-fenêtre.png" alt="fermer la fenêtre" id="close-icon1" width="30px" title="masquer image">
+                        <li id="projetP">Projet personnel</li>
+                    <a href="./Projet2/photograph.html"><img id="image2" src="./web site1.png" alt="Projet personnel"></a>
+                <img src="./icons-fermer-la-fenêtre.png" alt="fermer la fenêtre" id="close-icon" width="30px" title="masquer image">
             <li id="projet-Ap">projet apprentissage</li>
             <a href="./Projet1/TeaCozy.html"><img src="" alt="projet pratique" id="image3"></a>
         </ul>
@@ -46,6 +53,7 @@
 <!--troiseme partie competence-->
     <section id="competence">
         <h2>Compétences</h2>
+        <p style="color: gray;">Voici quelques-unes de mes compétences techniques :</p>
         <div class="skills">
             <div class="HTML">
                 <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="HTML Icon" width="50" height="50">
@@ -92,13 +100,14 @@
 <!--quatrieme partie contact-->
     <section>
         <h2 id="contact">Contact</h2>
+        <p style="color: gray;">Pour toute question ou collaboration, n'hésitez pas à me contacter via les liens ci-dessous :</p>
         <div id="contact">
             <a href="mailto:rmalemba28@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Contact Icon" width="50" height="50"></a>
             <a href="https://github.com/rodrigue-malemba" target="_blank"><img src="./github.png" width="50px" alt="github"></a>
-            <a href="https://www.linkedin.com/in/rodrigue-malemba-2b0b1a1b6/" target="_blank"><img src="./Linkdin.png" width="50px"></a>
+            <a href="https://www.linkedin.com/in/rodrigue-malemba-98637b175/" target="_blank"><img src="./Linkdin.png" width="50px"></a>
         </div>
     </section>
-    <footer>
+    <footer style="height: 69px;" role="contentinfo">
         <p>© 2025 Rodrigue Malemba.software engeneer Tous droits réservés.</p>
     </footer>
 </body>

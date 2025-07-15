@@ -1,3 +1,28 @@
+//activer mode sombre
+let darkMode = document.getElementById("dark-mode");
+let lightMode = document.getElementById("light-mode");
+let paragraph = document.querySelector("p");
+let corps = document.querySelector("body");
+
+const activeDark = () => {
+    corps.style.backgroundColor = "black";
+    paragraph.style.color = "white";
+    lightMode.style.backgroundColor = "white";
+    lightMode.style.display = "block";
+    darkMode.style.display = "none";
+
+}
+darkMode.addEventListener("click", activeDark);
+
+//activer mode clair
+
+const activeLight = () => {
+    paragraph.style.color = "black";
+    darkMode.style.display = "block";
+    lightMode.style.display = "none";
+    corps.style.backgroundColor = "white";
+}
+lightMode.addEventListener("click", activeLight);
 //affichage de la premiere image
 let portfolio = document.getElementById("portfolio");
 let image1 = document.getElementById("image1");
