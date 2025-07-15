@@ -86,3 +86,7 @@ footer p{
 #projet-Ap:hover{
     color: blue;
 }
+#close-icon, #close-icon1{
+    display: none;
+    position: relative;
+}
