@@ -77,6 +77,9 @@ footer p{
         align-items: center;
     }
 }
+.skills p{
+    color: gray;
+}
 #image1,
 #image2{
     display: none;
@@ -86,16 +89,13 @@ footer p{
     display: none;
 }
 #portfolio:hover{
-    color: blue;
     transition: 0.9s;
     cursor: pointer;
 }
 #projetP:hover{
-    color: blue;
     cursor: pointer;
 }
 #projet-Ap:hover{
-    color: blue;
     cursor: pointer;
 }
 #close-icon, #close-icon1{
@@ -110,6 +110,10 @@ footer p{
 }
 #light-mode{
     display: none;
+}
+#dark-mode{
+    border: 1px solid black;
+    border-radius: 5px;
 }
 #dark-mode,#light-mode{
     position: relative;
